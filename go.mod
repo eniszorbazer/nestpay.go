@@ -1,4 +1,4 @@
-module github.com/ozgur-yalcin/nestpay.go
+module github.com/eniszorbazer/nestpay.go
 
 go 1.21.4
 
