@@ -332,7 +332,7 @@ func (api *API) PreAuth3Dhtml(ctx context.Context, req *Request) (string, error)
 func (api *API) Auth3Dhtml(ctx context.Context, req *Request) (string, error) {
 	req.TransactionType = "Auth"
 	req.HashAlgorithm = "ver3"
-	req.StoreType = "3d"
+	req.StoreType = "3d_pay"
 	req.Random = Random(6)
 	form, err := QueryString(req)
 	if err == nil {
